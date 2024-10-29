@@ -1,0 +1,406 @@
+<html class="no-js" lang="en">
+  <head>
+    <!-- meta data -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!--font-family-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Rufina:400,700"
+      rel="stylesheet"
+    />
+
+    <!-- title of site -->
+    <title>OBDeleven</title>
+
+    <!-- For favicon png -->
+    <link
+      rel="shortcut icon"
+      type="image/icon"
+      href="../BrandPics/faviconcar.jpg"
+    />
+
+    <!--font-awesome.min.css-->
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css" />
+
+    <!--linear icon css-->
+    <link rel="stylesheet" href="../assets/css/linearicons.css" />
+
+    <!--flaticon.css-->
+    <link rel="stylesheet" href="../assets/css/flaticon.css" />
+
+    <!--animate.css-->
+    <link rel="stylesheet" href="../assets/css/animate.css" />
+
+    <!--owl.carousel.css-->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/owl.theme.default.min.css" />
+
+    <!--bootstrap.min.css-->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="../assets/css/bootsnav.css" />
+
+    <!--style.css-->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+
+    <!--responsive.css-->
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      /* Style for aligning the logo and the navbar items */
+/* Style for aligning the logo and the navbar items */
+body,
+      html {
+        height: 100%;
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        background-color: #f4f4f4;
+      }
+      .top-area {
+        background-color: black;
+      }
+      .product-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Makes the container take up the full viewport height */
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        border: 2px solid #ddd; /* Adds a border all around */
+      }
+      .product-image-section {
+        max-width: 300px;
+        margin-right: 20px;
+      }
+      .product-image-section img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+      .product-details-section {
+        max-width: 400px;
+        text-align: left;
+      }
+      .product-details-section h1 {
+        margin-bottom: 10px;
+        font-size: 24px;
+        color: #333;
+      }
+      .product-details-section p {
+        margin-bottom: 20px;
+        color: #666;
+      }
+      .product-price {
+        font-size: 20px;
+        color: #4f46e5;
+        margin-bottom: 20px;
+      }
+      .quantity-section {
+        margin-bottom: 20px;
+      }
+      .btn-group {
+        margin-top: 20px;
+      }
+      .btn {
+        background-color: #4f46e5;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .btn:hover {
+        background-color: #3b3b9e;
+      }
+
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+
+      .cart-container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px; /* Adjust this value as needed to clear the navbar */
+}
+
+
+      .cart-page h1 {
+        text-align: center;
+        color: #333;
+      }
+
+      #cart-items li {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      #cart-items li input[type="number"] {
+        width: 50px;
+        text-align: center;
+      }
+
+      .delete-btn {
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+
+      .cart-page p {
+        text-align: right;
+        font-size: 18px;
+      }
+
+      form {
+        margin-top: 20px;
+      }
+
+      form label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      form input,
+      form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      form button {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+
+      form button:hover {
+        background-color: #218838;
+      }
+    </style>
+  </head>
+  <body>  
+    <!-- top-area Start -->
+    <div class="top-area">
+      <div class="header-area">
+        <!-- Start Navigation -->
+        <nav
+          class="navbar navbar-default bootsnav navbar-sticky navbar-scrollspy"
+          data-minus-value-desktop="70"
+          data-minus-value-mobile="55"
+          data-speed="1000"
+          style="background-color: black"
+        >
+          <div class="container">
+            <!-- Start Header Navigation -->
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target="#navbar-menu"
+              >
+                <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand" id="ATClogo" href="../index.html"
+                ><img
+                  src="../BrandPics/ATClogo.png"
+                  alt="ATClogo"
+                  width="98.6"
+                  height="58.91" /><span></span
+              ></a>
+            </div>
+            <!--/.navbar-header-->
+            <!-- End Header Navigation -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div
+              class="collapse navbar-collapse menu-ui-design"
+              id="navbar-menu"
+            >
+              <ul
+                class="nav navbar-nav navbar-right"
+                data-in="fadeInDown"
+                data-out="fadeOutUp"
+              >
+                <li class="scroll active"><a href="../index.html">home</a></li>
+                <li class="scroll"><a href="#service">service</a></li>
+                <li class="scroll">
+                  <a href="#featured-cars">Featured Products</a>
+                </li>
+                <li class="scroll"><a href="#new-cars">best-sellers</a></li>
+                <li class="scroll"><a href="#brand">brands</a></li>
+                <li class="scroll"><a href="#contact">contact</a></li>
+              </ul>
+              <!--/.nav -->
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!--/.container-->
+        </nav>
+        <!--/nav-->
+        <!-- End Navigation -->
+      </div>
+      <!--/.header-area-->
+      <div class="clearfix"></div>
+    </div>
+    <!-- /.top-area-->
+    <!-- top-area End --> 
+
+    <div class="cart-container cart-page">
+      <h1 style="font-size: 28pt;">Shopping Cart</h1>
+      <ul id="cart-items"></ul>
+      <p>Total: <span id="total-price">0</span> NIS</p>
+
+      <h2>Checkout</h2>
+      <form id="checkoutForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br />
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required /><br />
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" required /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br />
+
+        <label for="note">Note:</label>
+        <textarea id="note" name="note"></textarea><br />
+        <button type="submit">Submit Order</button>
+      </form>
+      <a href="../AllProducts.html"><button style="color: gray;"><u>Go Back</u></button></a>
+    </div>
+
+    <script type="module">
+      import {
+        getFirestore,
+        collection,
+        addDoc,
+      } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore.js";
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyBL7MOIEE8K1UgZTG_j-6-VM0JzlD_7BS0",
+        authDomain: "ecomers-dd329.firebaseapp.com",
+        projectId: "ecomers-dd329",
+        storageBucket: "ecomers-dd329.appspot.com",
+        messagingSenderId: "190646144215",
+        appId: "1:190646144215:web:d55f24091a920f92b6b492",
+        measurementId: "G-NVYK3DZR00",
+      };
+
+      const app = initializeApp(firebaseConfig);
+      const db = getFirestore(app);
+
+      const cartItems = document.getElementById("cart-items");
+      const totalPriceElem = document.getElementById("total-price");
+      let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+      function renderCart() {
+        cartItems.innerHTML = "";
+        let totalPrice = 0;
+
+        cart.forEach((item, index) => {
+          const li = document.createElement("li");
+          li.innerHTML = `
+            ${item.name} - ${item.price} NIS
+            <input type="number" value="${
+              item.quantity || 1
+            }" min="1" data-index="${index}" />
+            <button class="delete-btn" data-index="${index}">Delete</button>
+          `;
+          cartItems.appendChild(li);
+          totalPrice += item.price * (item.quantity || 1);
+        });
+
+        totalPriceElem.textContent = totalPrice;
+      }
+
+      renderCart();
+
+      cartItems.addEventListener("click", (e) => {
+        if (e.target.classList.contains("delete-btn")) {
+          const index = e.target.getAttribute("data-index");
+          cart.splice(index, 1);
+          localStorage.setItem("cart", JSON.stringify(cart));
+          renderCart();
+        }
+      });
+
+      cartItems.addEventListener("input", (e) => {
+        if (e.target.type === "number") {
+          const index = e.target.getAttribute("data-index");
+          const newQuantity = parseInt(e.target.value);
+          cart[index].quantity = newQuantity;
+          localStorage.setItem("cart", JSON.stringify(cart));
+          renderCart();
+        }
+      });
+
+      document
+        .getElementById("checkoutForm")
+        .addEventListener("submit", async (e) => {
+          e.preventDefault();
+
+          const name = document.getElementById("name").value;
+          const address = document.getElementById("address").value;
+          const phone = document.getElementById("phone").value;
+          const email = document.getElementById("email").value;
+          const note = document.getElementById("note").value;
+
+          try {
+            await addDoc(collection(db, "orders"), {
+              name: name,
+              address: address,
+              phone: phone,
+              email: email,
+              note: note,
+              items: cart,
+              totalPrice: parseFloat(totalPriceElem.textContent),
+              timestamp: new Date(),
+            });
+
+            localStorage.removeItem("cart");
+            alert("Order submitted successfully!");
+            renderCart();
+          } catch (error) {
+            console.error("Error submitting the order:", error);
+          }
+        });
+    </script>
+  </body>
+</html>
